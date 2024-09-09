@@ -1,0 +1,16 @@
+#cajaSlide {
+    display: block; /* Hace que la caja sea visible */
+    margin: 0; /* Sin espacio extra alrededor */
+    width: 100%; /* La caja ocupa todo el ancho disponible */
+    text-align: center; /* Centra el contenido dentro de la caja */
+}
+
+#cajaSlide IMG {
+    max-width: 800px; /* La imagen no será más ancha que 800 píxeles */
+    border: 10px solid black; /* Un borde negro alrededor de la imagen */
+    border-radius: 20px; /* Esquinas redondeadas del borde */
+    box-shadow: 10px 10px 10px black; /* Sombra negra para darle un efecto 3D */
+    cursor: pointer; /* Cambia el cursor cuando pasas sobre la imagen, como una mano */
+}
+    
+   

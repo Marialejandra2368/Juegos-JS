@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Metadatos para el uso correcto de carácteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Ayuda a que la página web sea responsive--> 
+    <title> Semáforo</title> <!--Título que se muestra en la pestaña del navegador-->
+    <link rel="stylesheet" href="style.css"> <!--Hoja de estilos-->
+</head>
+<body onload="iniciarSemaforo()"> <!--Ejecuta la función llamda "iniciarSemaforo"-->
+    <h1>Simulador de Semáforo</h1> <!--Titulo-->
+
+    <!-- Divs que representan los círculos del semáforo -->
+    <div id="rojo" class="circulo"></div> <!--Circulo 1-->
+    <div id="amarillo" class="circulo"></div> <!--Circulo 2-->
+    <div id="verde" class="circulo"></div> <!--Circulo 3-->
+
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript que controla el semáforo -->
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Metadatos para el uso correcto de carácteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Ayuda a que la página web sea responsive-->
+    <title>Calculadora</title> <!--Título que se muestra en la pestaña del navegador-->
+</head>
+<body>
+    <h1>A Calcular</h1> <!--Titulo-->
+    <input type="number" id="num1" placeholder="Número 1"> <!--Espacio para ingresar el primer número-->
+    <select id="operacion"> <!--Selector de la opeeración a realizar-->
+        <option value="+">+</option> <!--Opción: suma-->
+        <option value="-">-</option> <!--Opción: resta-->
+        <option value="*">*</option> <!--Opción: multiplicación-->
+        <option value="/">/</option> <!--Opción: división-->
+    </select>
+    <input type="number" id="num2" placeholder="Número 2"> <!--Espacio para ingresar el segundo número-->
+    <button onclick="calcular()">Calcular</button> <!--Botón para indicar que ya se puede iniciar el cáculo de la operación-->
+    <p id="resultado"></p> <!--Espacio que muestra el resultado final-->
+
+    <script src="script.js"></script> <!--Carga el archivo JavaScript-->
+</body>
+</html>

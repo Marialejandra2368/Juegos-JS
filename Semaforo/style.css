@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: palevioletred;
+    text-align: center;
+}
+h1{
+    font-size: 2.5em; /* Tamaño grande para el título */
+    margin-bottom: 20px; /* Espacio inferior del título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para el texto del título */
+}
+
+.circulo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.5s, transform 0.5s;
+}
+.circulo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+}

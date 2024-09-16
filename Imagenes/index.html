@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadatos del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlace al archivo de estilos CSS -->
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body onload="iniciar();">
+    <!-- Título principal de la página -->
     <h1 id="titulo1">Pase de Imagenes automatico</h1>
 
     <div id="cajaSlide">
+        <!-- Imagen principal que se mostrará en el pase de imágenes -->
         <img id="imgSlide" src="/images/img1.jpg" title="Imagen" alt="Imagen" onclick="rotarImagenes();">
 
         <br /><br />
 
+        <!-- Controles para parar y continuar el pase de imágenes -->
         <form>
-            <input type="button" value="Parar"
-                    onclick="parar();">
+            <!-- Botón para detener el pase de imágenes -->
+            <input type="button" value="Parar" onclick="parar();">
+            <!-- Botón para reanudar el pase de imágenes -->
             <input type="button" value="Continuar" onclick="iniciar();">
         </form>
     </div>
     
-    <!---Aqui ingresamos el script para que redireccione a la hoja script.js donde esta la funcionalidad de la pagina-->
+    <!-- Enlace al archivo de script JavaScript donde se define la funcionalidad -->
     <script src="script.js"></script>
 </body>
 </html>

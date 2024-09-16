@@ -1,29 +1,35 @@
+/* Estilo para el cuerpo de la página */
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    color: palevioletred;
-    text-align: center;
-}
-h1{
-    font-size: 2.5em; /* Tamaño grande para el título */
-    margin-bottom: 20px; /* Espacio inferior del título */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para el texto del título */
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    height: 100vh; /* Ajusta la altura del cuerpo al 100% de la altura de la ventana */
+    margin: 0; /* Elimina el margen predeterminado del navegador */
+    color: palevioletred; /* Establece el color del texto */
+    text-align: center; /* Centra el texto horizontalmente */
 }
 
-.circulo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: grey;
-    margin: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
-    transition: background-color 0.5s, transform 0.5s;
+/* Estilo para el título principal */
+h1 {
+    font-size: 2.5em; /* Define un tamaño grande para el título */
+    margin-bottom: 20px; /* Agrega un espacio de 20px debajo del título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra al texto para darle profundidad */
 }
+
+/* Estilo para los círculos */
+.circulo {
+    width: 120px; /* Establece el ancho del círculo */
+    height: 120px; /* Establece la altura del círculo */
+    border-radius: 50%; /* Hace que el elemento sea un círculo */
+    background-color: grey; /* Establece el color de fondo del círculo */
+    margin: 20px; /* Agrega un margen alrededor del círculo */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); /* Agrega una sombra sutil alrededor del círculo */
+    transition: background-color 0.5s, transform 0.5s; /* Define transiciones suaves para el color de fondo y la transformación */
+}
+
+/* Estilo para el estado hover del círculo */
 .circulo:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+    transform: scale(1.1); /* Amplía el círculo un 10% cuando se pasa el ratón sobre él */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8); /* Aumenta la sombra del círculo en estado hover */
 }

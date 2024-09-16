@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Define el conjunto de caracteres usado en la página -->
+    <meta charset="UTF-8">
+    
+    <!-- Asegura que la página sea compatible con Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Configura la vista en dispositivos móviles para que se ajuste al ancho del dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Enlaza la hoja de estilos externa (CSS) que define la apariencia del juego -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Título que se muestra en la pestaña del navegador -->
+    <title>Juego del Dinosaurio</title>
+</head>
+<body>
+
+    <!-- Contenedor principal del juego -->
+    <div class="contenedor">
+        <!-- Representa el suelo en el juego donde el dinosaurio camina -->
+        <div class="suelo"></div>
+        
+        <!-- Representa el dinosaurio que se mueve en el juego -->
+        <div class="dino dino-corriendo"></div>
+        
+        <!-- Muestra el puntaje del jugador -->
+        <div class="score">0</div>
+    </div>
+
+    <!-- Mensaje que se muestra cuando el juego termina -->
+    <div class="game-over">GAME OVER</div>
+    
+    <!-- Enlaza el archivo JavaScript que contiene la lógica del juego -->
+    <script src="script.js"></script>
+</body>
+</html>

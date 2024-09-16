@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadatos de la página -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adivina el Numero</title> <!-- Título de la página -->
 </head>
 
 <body>
+    <!-- Encabezado principal -->
     <h1>Adivina el Numero</h1>
+    
+    <!-- Instrucciones para el usuario -->
     <p>Intenta adivinar un numero entre 1 y 100</p>
+    
+    <!-- Campo de entrada para el número -->
     <input type="number" id="numero" placeholder="Escribe tu numero">
+    
+    <!-- Botón para enviar el número -->
     <button onclick="adivinar()">Adivinar</button>
+    
+    <!-- Área donde se mostrará el resultado -->
     <p id="resultado"></p>
 
-
+    <!-- Inclusión del archivo JavaScript que contiene la lógica del juego -->
     <script src="script.js"></script>
 </body>
 </html>
